@@ -12,6 +12,8 @@ public class ScrabbleScore {
     for (String letter : wordArray) {
       if (letter.matches(".*[aeioulnrst].*")) {
         score += 1;
+      } else if (letter.matches(".*[dg].*")){
+        score += 2;
       }
     }
     System.out.println(score);
