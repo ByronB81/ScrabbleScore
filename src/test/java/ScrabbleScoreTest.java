@@ -45,4 +45,18 @@ public class ScrabbleScoreTest {
     assertEquals(expectedOutput, testScrabbleScore.calculateScore("k"));
   }
 
+  @Test
+  public void calculateScore_returnScoreFor8PointLetters_16(){
+    ScrabbleScore testScrabbleScore = new ScrabbleScore();
+    String expectedOutput = "16";
+    assertEquals(expectedOutput, testScrabbleScore.calculateScore("xj"));
+  }
+
+  @Test
+  public void calculateScore_returnScoreFor10PointLetters_20(){
+    ScrabbleScore testScrabbleScore = new ScrabbleScore();
+    String expectedOutput = "20";
+    assertEquals(expectedOutput, testScrabbleScore.calculateScore("zq"));
+  }
+
 }

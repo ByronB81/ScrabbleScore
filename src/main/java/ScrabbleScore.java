@@ -20,6 +20,10 @@ public class ScrabbleScore {
         score += 4;
       } else if (letter.matches("k")){
         score += 5;
+      } else if (letter.matches(".*[jx].*")) {
+        score += 8;
+      } else if (letter.matches(".*[qz].*")) {
+        score += 10;
       }
     }
     System.out.println(score);
