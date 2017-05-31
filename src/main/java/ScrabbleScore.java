@@ -18,6 +18,8 @@ public class ScrabbleScore {
         score += 3;
       } else if (letter.matches(".*[fhvwy].*")){
         score += 4;
+      } else if (letter.matches("k")){
+        score += 5;
       }
     }
     System.out.println(score);

@@ -38,4 +38,11 @@ public class ScrabbleScoreTest {
     assertEquals(expectedOutput, testScrabbleScore.calculateScore("hvy"));
   }
 
+  @Test
+  public void calculateScore_returnScoreFor5PointLetter_5(){
+    ScrabbleScore testScrabbleScore = new ScrabbleScore();
+    String expectedOutput = "5";
+    assertEquals(expectedOutput, testScrabbleScore.calculateScore("k"));
+  }
+
 }
