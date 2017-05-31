@@ -14,6 +14,8 @@ public class ScrabbleScore {
         score += 1;
       } else if (letter.matches(".*[dg].*")){
         score += 2;
+      } else if (letter.matches(".*[bcmp].*")) {
+        score += 3;
       }
     }
     System.out.println(score);

@@ -23,4 +23,11 @@ public class ScrabbleScoreTest {
     String expectedOutput = "4";
     assertEquals(expectedOutput, testScrabbleScore.calculateScore("dg"));
   }
+
+  @Test
+  public void calculateScore_returnScoreFor3PointLetters_9(){
+    ScrabbleScore testScrabbleScore = new ScrabbleScore();
+    String expectedOutput = "9";
+    assertEquals(expectedOutput, testScrabbleScore.calculateScore("bmp"));
+  }
 }
