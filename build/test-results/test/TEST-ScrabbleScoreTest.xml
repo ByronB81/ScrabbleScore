@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ScrabbleScoreTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-05-31T00:52:36" hostname="DESKTOP-CSR7OCA" time="0.004">
+<testsuite name="ScrabbleScoreTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-05-31T00:56:34" hostname="DESKTOP-CSR7OCA" time="0.016">
   <properties/>
-  <testcase name="calculateScore_returnScoreFor3PointLetters_9" classname="ScrabbleScoreTest" time="0.002"/>
+  <testcase name="calculateScore_returnScoreFor3PointLetters_9" classname="ScrabbleScoreTest" time="0.0"/>
   <testcase name="calculateScore_returnScoreFor4PointLetters_12" classname="ScrabbleScoreTest" time="0.0"/>
-  <testcase name="calculateScore_returnScoreFor10PointLetters_20" classname="ScrabbleScoreTest" time="0.001"/>
+  <testcase name="calculateScore_returnScoreForFullWord_15" classname="ScrabbleScoreTest" time="0.016"/>
+  <testcase name="calculateScore_returnScoreFor10PointLetters_20" classname="ScrabbleScoreTest" time="0.0"/>
   <testcase name="calculateScore_returnScoreForSingleLetter_1" classname="ScrabbleScoreTest" time="0.0"/>
   <testcase name="calculateScore_returnScoreFor5PointLetter_5" classname="ScrabbleScoreTest" time="0.0"/>
   <testcase name="calculateScore_returnScoreFor_MultiLetters_2" classname="ScrabbleScoreTest" time="0.0"/>
@@ -11,6 +12,7 @@
   <testcase name="calculateScore_returnScoreFor8PointLetters_16" classname="ScrabbleScoreTest" time="0.0"/>
   <system-out><![CDATA[9
 12
+15
 20
 1
 5

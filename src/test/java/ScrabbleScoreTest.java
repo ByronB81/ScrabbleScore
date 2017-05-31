@@ -59,4 +59,11 @@ public class ScrabbleScoreTest {
     assertEquals(expectedOutput, testScrabbleScore.calculateScore("zq"));
   }
 
+  @Test
+  public void calculateScore_returnScoreForFullWord_15() {
+    ScrabbleScore testScrabbleScore = new ScrabbleScore();
+    String expectedOutput = "15";
+    assertEquals(expectedOutput, testScrabbleScore.calculateScore("Howdy"));
+  }
+
 }
