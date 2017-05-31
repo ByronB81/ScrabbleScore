@@ -30,4 +30,12 @@ public class ScrabbleScoreTest {
     String expectedOutput = "9";
     assertEquals(expectedOutput, testScrabbleScore.calculateScore("bmp"));
   }
+
+  @Test
+  public void calculateScore_returnScoreFor4PointLetters_12(){
+    ScrabbleScore testScrabbleScore = new ScrabbleScore();
+    String expectedOutput = "12";
+    assertEquals(expectedOutput, testScrabbleScore.calculateScore("hvy"));
+  }
+
 }
